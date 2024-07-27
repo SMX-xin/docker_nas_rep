@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/centos:latest docker://registry.cn-hangzhou.aliyuncs.com/centos:latest
+        skopeo copy docker://docker.io/jxxghp/moviepilot:latest docker://registry.cn-hangzhou.aliyuncs.com/docker_synogy_nas/moviepilot:latest
