@@ -35,3 +35,7 @@ jobs:
       run: |
         #!/usr/bin/env bash
         skopeo copy docker://docker.io/jxxghp/moviepilot:latest docker://registry.cn-hangzhou.aliyuncs.com/docker_synogy_nas/moviepilot:latest
+        skopeo copy docker://docker.io/gdy666/lucky:latest docker://registry.cn-hangzhou.aliyuncs.com/docker_synogy_nas/lucky:latest
+        skopeo copy docker://docker.io/myservers/my_servers:latest docker://registry.cn-hangzhou.aliyuncs.com/docker_synogy_nas/my_servers:latest
+        skopeo copy docker://docker.io/zerotier/zerotier-synology:latest docker://registry.cn-hangzhou.aliyuncs.com/docker_synogy_nas/zerotier-synology:latest
+        
