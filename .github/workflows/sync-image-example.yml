@@ -39,4 +39,5 @@ jobs:
         skopeo copy docker://docker.io/myservers/my_servers:latest docker://registry.cn-hangzhou.aliyuncs.com/docker_synogy_nas/my_servers:latest
         skopeo copy docker://docker.io/zerotier/zerotier-synology:latest docker://registry.cn-hangzhou.aliyuncs.com/docker_synogy_nas/zerotier-synology:latest
         skopeo copy docker://docker.io/linuxserver/qbittorrent:latest docker://registry.cn-hangzhou.aliyuncs.com/docker_synogy_nas/qbittorrent:latest
+        skopeo copy docker://docker.io/centos:latest docker://registry.cn-hangzhou.aliyuncs.com/docker_synogy_nas/centos:latest
         
